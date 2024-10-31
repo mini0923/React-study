@@ -201,6 +201,9 @@ function App() {
           }
           // 새로운 배열로 state를 업데이트
           setTopics(newTopics);
+          
+          // 삭제가 끝났으면 모드를 전환(삭제 -> 처음)
+          setMode('WELCOME');
 
         }}
         ></input>
