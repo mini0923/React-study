@@ -1,0 +1,13 @@
+.root, .root div {
+  border: 5px solid red;
+  margin: 10px;
+}
+
+/* div를 grid 컨테이너로 설정
+  자식들을 1:1 비율로 배치
+*/
+
+.root {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
